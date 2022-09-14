@@ -52,7 +52,7 @@ public class Program {
 	}
 
 	private static Double calcIrff(Double salary) {
-		double irff;;
+		double irff;
 
 		if (salary <= 1903.98) {
 			irff = 0.0;
