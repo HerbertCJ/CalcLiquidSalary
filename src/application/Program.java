@@ -28,7 +28,7 @@ public class Program {
 		double inss;
 
 		if (salary <= 1212.00) {
-			return salary * 0.075;
+			inss = salary * 0.075;
 		}
 		else if (salary <= 2427.35) {
 			inss = (salary - 1212.01) * 0.09 + 90.90;
@@ -52,10 +52,10 @@ public class Program {
 	}
 
 	private static Double calcIrff(Double salary) {
-		double irff = 0.0;
+		double irff;;
 
 		if (salary <= 1903.98) {
-			return irff;
+			irff = 0.0;
 		} 
 		else if (salary <= 2826.65) {
 			irff = (salary * 0.075) - 142.80;
